@@ -4,31 +4,38 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css" integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./сss/styles.css" />
   </head>
   <!-- Section header -->
   <body>
-    <header>
-      <nav>
-        <a href="./index.html">WebStudio</a>
-        <ul>
-          <li>
-            <a href="#"> Studio </a>
+    <header class="page-header">
+      <nav class="header-nav">
+        <a class="logo header-logo" href="./index.html">Web<span class="logo-part">Studio</a>
+        <ul class="list-">
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html"> Studio </a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"> Portfolio </a>
+          </li class="nav-item">
           <li>
-            <a href="#"> Portfolio </a>
-          </li>
-          <li>
-            <a href="#"> Contacts </a>
+            <a class="nav-link" href="#"> Contacts </a>
           </li>
         </ul>
       </nav>
-      <address>
-        <ul>
-          <li>
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+      <address class="contacts">
+        <ul class="contacts-list">
+          <li class="contacts-item">
+            <a class="contacts-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
           </li>
-          <li>
-            <a href="tel:+110001111111"> +11 (000) 111-11-11 </a>
+          <li class="contacts-item">
+            <a class="contacts-link" href="tel:+110001111111"> +11 (000) 111-11-11 </a>
           </li>
         </ul>
       </address>
@@ -37,40 +44,40 @@
 
     <!-- Section of Solutions -->
     <main>
-      <section>
-        <h1>Effective Solutions for Your Business</h1>
-        <button type="button">Order Service</button>
+      <section class="main-page-bg">
+        <h1 class="main-title">Effective Solutions for Your Business</h1>
+        <button class="order-button" type="button">Order Service</button>
       </section>
       <!-- END of Solutions -->
 
       <!-- Section of principles -->
-      <section>
+      <section class="principles-page">
         <h2>What we follow</h2>
-        <ul>
-          <li>
-            <h3>Strategy</h3>
-            <p>
+        <ul class="principles-list">
+          <li class="principles-item">
+            <h3 class="principles-title">Strategy</h3>
+            <p class="principles-content">
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
-          <li>
-            <h3>Punctuality</h3>
-            <p>
+          <li class="principles-item">
+            <h3 class="principles-title">Punctuality</h3>
+            <p class="principles-content">
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
-          <li>
-            <h3>Diligence</h3>
-            <p>
+          <li class="principles-item">
+            <h3 class="principles-title">Diligence</h3>
+            <p class="principles-content">
               Research and confirm brands with the strongest digital growth
               opportunities and minimize risk.
             </p>
           </li>
-          <li>
-            <h3>Technologies</h3>
-            <p>
+          <li class="principles-item">
+            <h3 class="principles-title">Technologies</h3>
+            <p class="principles-content">
               Design practice focused on digital experiences. We bring forth a
               deep passion for problem-solving.
             </p>
@@ -81,58 +88,123 @@
 
       <!-- Team section -->
 
-      <section>
-        <h2>Our Team</h2>
-        <ul>
-          <li>
+      <section class="team-page">
+        <h2 class="team-page-title">Our Team</h2>
+        <ul class="teammates-list">
+          <li class="team-member">
             <img
               src="./images/team/mark-guerrero.jpg"
               alt="Mark Guerrero"
               height="260"
               width="264"
             />
-            <h3>Mark Guerrero</h3>
-            <p>Product Designer</p>
+            <h3 class="teammate-name">Mark Guerrero</h3>
+            <p class="member-description">Product Designer</p>
           </li>
-          <li>
+          <li class="team-member">
             <img
               src="./images/team/tom-ford.jpg"
               alt="Tom Ford"
               height="260"
               width="264"
             />
-            <h3>Tom Ford</h3>
-            <p>Frontend Developer</p>
+            <h3  class="teammate-name">Tom Ford</h3>
+            <p class="member-description">Frontend Developer</p>
           </li>
-          <li>
+          <li class="team-member">
             <img
               src="./images/team/camila-garcia.jpg"
               alt="Camila Garcia"
               height="260"
               width="264"
             />
-            <h3>Camila Garcia</h3>
-            <p>Marketing</p>
+            <h3 class="teammate-name">Camila Garcia</h3>
+            <p class="member-description">Marketing</p>
           </li>
-          <li>
+          <li class="team-member">
             <img
               src="./images/team/daniel-wilson.jpg"
               alt="Daniel Wilson"
               height="260"
               width="264"
             />
-            <h3>Daniel Wilson</h3>
-            <p>UI Designer</p>
+            <h3 class="teammate-name">Daniel Wilson</h3>
+            <p class="member-description">UI Designer</p>
           </li>
         </ul>
       </section>
       <!-- END of Team section -->
+
+      <!-- Portfolio section -->
+      <section>
+        <h2>Our Portfolio</h2>
+        <ul>
+          <li>
+            <img 
+              src="./images/portfolio-items/bank-app.jpg" alt="Banking App"
+              height="300"
+              width="360"
+              >
+              <h3>Banking App</h3>
+            <p>App</p>
+          </li>
+          <li>
+            <img 
+              src="./images/portfolio-items/payment.jpg" alt="Cashless Payment"
+              height="300"
+              width="360"
+              >
+              <h3>Cashless Payment</h3>
+            <p>Marketing</p>
+          </li>
+          <li>
+            <img 
+              src="./images/portfolio-items/mediation.jpg" alt="Mediation App"
+              height="300"
+              width="360"
+              >
+              <h3>Mediation App</h3>
+            <p>App</p>
+          </li>
+          <li>
+            <img  
+              src="./images/portfolio-items/taxi-pic.jpg" alt="Taxi Service"
+              height="300"
+              width="360"
+              >
+              <h3>Taxi Service</h3>
+            <p>Marketing</p>
+          </li>
+          <li>
+            <img 
+              src="./images/portfolio-items/illustrations.jpg" alt="Screen illustrations"
+              height="300"
+              width="360"
+              >
+              <h3>Screen Illustrations</h3>
+            <p>Design</p>
+          </li>
+          <li>
+            <img 
+              src="./images/portfolio-items/portfolio-women.jpg" alt="Online courses"
+              height="300"
+              width="360"
+              >
+              <h3>Online Courses</h3>
+            <p>Marketing</p>
+          </li>
+        </ul>
+      </section>
+
+
+
+       <!-- END of Portfolio section -->
     </main>
 
     <!-- Section footer -->
-    <footer>
-      <a href="./index.html">WebStudio</a>
-      <p>
+    <footer class="page-footer">
+      <a  class="logo footer-logo" href="./index.html">Web<span class="logo-part">Studio</a>
+      <p class="p-footer-white">
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
       </p>
