@@ -145,7 +145,7 @@ a {
         text-transform: capitalize;
 }
 
-.tea-member {
+.team-member {
     background-color: #FFFFFF;
 }
 
@@ -170,6 +170,49 @@ a {
 /* END OF Team Section */
 
 
+/* Our Portfolio */
+
+.portfolio-page {
+    background-color: #FFFFFF;
+}
+
+.portfolio-page-title {
+        font-size: 36px;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #2e2f42;
+        text-transform: capitalize;
+}
+
+.portfolio-element {
+    background-color: #FFFFFF;
+}
+
+.portfolio-asset {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+}
+
+.portfolio-description {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
+
+
+
+
+
+
+
+
+/* END OF Portfolio section */
 
 
 
@@ -184,7 +227,7 @@ a {
 
 
 
-
+/* Footer section */
 
 .page-footer {
     background-color:#2e2f42;
@@ -195,3 +238,5 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+
+/* END OF footer */
