@@ -1,6 +1,6 @@
 body {
     font-family: "Roboto", sans-serif;
-    color: var(--slate);
+    color:#434455;
     background-color: #fff;
 }
 
@@ -199,31 +199,9 @@ a {
         letter-spacing: 0.02em;
         color: #434455;
 }
-
-
-
-
-
-
-
-
 /* END OF Portfolio section */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Footer section */
-
 .page-footer {
     background-color:#2e2f42;
 }
