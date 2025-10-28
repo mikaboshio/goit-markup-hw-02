@@ -96,6 +96,13 @@ a {
         border-radius: 5px;
 }
 
+.order-button:hover,
+.order-button:focus {
+    background-color: #404BBF;
+}
+
+
+
 /* END OF Section Solutions */
 
 /* Principle page */
