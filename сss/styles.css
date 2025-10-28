@@ -70,6 +70,10 @@ a {
     background-color:#2e2f42;
 }
 
+.main-site-color {
+    color: #434455;
+}
+
 .main-title {
         font-weight: 700;
         font-size: 56px;
@@ -82,10 +86,14 @@ a {
 .order-button {
     background-color:#4d5ae5 ;
     color: #fff;
-        border-radius: 4px;
-        padding: 16px 32px;
-        width: 169px;
-        height: 56px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0.04em;
+        cursor: pointer;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
 }
 
 /* END OF Section Solutions */
@@ -141,7 +149,7 @@ a {
 .member-description {
         font-weight: 400;
         font-size: 16px;
-        line-height: 150%;
+        line-height: 1.5;
         letter-spacing: 0.02em;
         text-align: center;
         color: #434455;
